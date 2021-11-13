@@ -1,9 +1,16 @@
 
-p, h1 {
+p {
     font-family: chivo, roboto, sans-serif;
     color: #e7c957;
     padding-left: 660px;
     padding-right:660px;
+}
+
+h1 {
+  font-family: chivo, roboto, sans-serif;
+  color: #e42827;
+  padding-left: 660px;
+  padding-right:660px;
 }
 
 article {
