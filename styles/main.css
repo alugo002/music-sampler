@@ -1,23 +1,20 @@
 
 p {
     font-family: chivo, roboto, sans-serif;
-    color: #e7c957;
-    padding-left: 660px;
-    padding-right:660px;
+    color: #fff;
+
 }
 
 h1 {
   font-family: chivo, roboto, sans-serif;
   color: #e42827;
-  padding-left: 660px;
-  padding-right:660px;
+
 }
 
 article {
   margin: 0;
     font-family: raleway, verdana, sans-serif;
     color: #fff;
-    background: #000;
 
 
 }
@@ -27,24 +24,27 @@ body {
   margin-top: 0;
     font-family: raleway, verdana, sans-serif;
     color: #fff;
-    background: #000;
+background: linear-gradient(#000, #666);
     text-align: center;
 }
 
 a {
     color: #57bfb6;
   }
-  a:hover {
+
+a:hover {
     color: #e42827;
   }
-  a:visited {
+
+a:visited {
     color: #bb1171;
   }
 
-
-@media screen and (max-width: 950px) {
-  body {
-    grid-template-columns: repeat(1, auto);
+  .album-cover {
+    cursor: pointer;
+    opacity: 0.85;
   }
 
-}
+  .album-cover:hover {
+        opacity: 1;
+  }
