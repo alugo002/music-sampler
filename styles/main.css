@@ -1,7 +1,7 @@
 
 p {
     font-family: chivo, roboto, sans-serif;
-    color: #e7c957;
+    color: #fff;
     padding-left: 660px;
     padding-right:660px;
 }
@@ -17,7 +17,6 @@ article {
   margin: 0;
     font-family: raleway, verdana, sans-serif;
     color: #fff;
-    background: #000;
 
 
 }
@@ -27,7 +26,7 @@ body {
   margin-top: 0;
     font-family: raleway, verdana, sans-serif;
     color: #fff;
-    background: #000;
+background: linear-gradient(#000, #111);
     text-align: center;
 }
 
